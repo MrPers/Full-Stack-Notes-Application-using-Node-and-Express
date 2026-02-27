@@ -1,0 +1,23 @@
+{
+  "name": "full-stack-notes-application-using-node-and-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrPers/Full-Stack-Notes-Application-using-Node-and-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrPers/Full-Stack-Notes-Application-using-Node-and-Express/issues"
+  },
+  "homepage": "https://github.com/MrPers/Full-Stack-Notes-Application-using-Node-and-Express#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
