@@ -1,67 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.5;
     padding: 20px;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
-    background: white;
+    background: #fff;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     margin-bottom: 20px;
 }
 
 input, textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #999;
+    font-size: 14px;
 }
 
 button {
     padding: 10px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
+    border: none;
+    color: white;
+    font-weight: bold;
 }
 
-button:hover {
-    background-color: #218838;
-}
+#submit-btn { background-color: #222; }
+#submit-btn:hover { background-color: #444; }
 
 .note-card {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    background: #fafafa;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
 }
 
-.note-card h3 {
-    margin-top: 0;
-}
+.note-card:last-child { border-bottom: none; }
 
 .actions {
     display: flex;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 5px;
 }
 
-.edit-btn { background-color: #007bff; }
-.edit-btn:hover { background-color: #0056b3; }
+.actions button {
+    padding: 5px 10px;
+    font-size: 12px;
+}
 
-.delete-btn { background-color: #dc3545; }
-.delete-btn:hover { background-color: #c82333; }
+.edit-btn { background-color: #555; }
+.delete-btn { background-color: #aa0000; }
